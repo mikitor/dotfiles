@@ -6,8 +6,8 @@ brew "bash-completion"
 brew "ctags"
 brew "fzf"
 brew "git"
+brew "mas"
 brew "nnn"
-brew "pcre"
 brew "python"
 brew "ripgrep"
 brew "shellcheck"
@@ -48,3 +48,10 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
 cask "windscribe"
+mas "Amphetamine", id: 937984704
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Reeder", id: 880001334
+mas "Xcode", id: 497799835
