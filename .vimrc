@@ -26,6 +26,8 @@ set modelines=1 " enable a line in a file which tells vim how to handle it
 
 set backspace=indent,eol,start " backspace over everything
 set hidden                     " hide buffers instead of closing them
+set clipboard=unnamed          " copy to system clipboard
+set clipboard=unnamedplus
 
 " }}}
 
