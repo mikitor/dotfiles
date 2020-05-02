@@ -27,7 +27,7 @@ set modelines=1 " enable a line in a file which tells vim how to handle it
 set backspace=indent,eol,start " backspace over everything
 set hidden                     " hide buffers instead of closing them
 set clipboard=unnamed          " copy to system clipboard
-set clipboard=unnamedplus
+set nrformats=                 " treat all numbers as decimals
 
 " }}}
 
@@ -64,6 +64,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'junegunn/limelight.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
