@@ -53,7 +53,23 @@ export ZSH="/Users/miki/.oh-my-zsh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(bgnotify zsh-syntax-highlighting zsh-autosuggestions git colored-man-pages npm brew osx)
+plugins=(
+  alias-finder
+  bgnotify
+  brew
+  common-aliases
+  colored-man-pages
+  copydir
+  copyfile
+  docker
+  git
+  jsontools
+  npm
+  osx
+  z
+
+  fast-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -107,11 +123,6 @@ function cnote
   touch ~/Dropbox/"$filename" && vim ~/Dropbox/"$filename"
 }
 
-# add z
-. $(brew --prefix)/etc/profile.d/z.sh
-
-# Haskell toolchain installer
-[ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" # haskell settings
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 bindkey -v # use vi bindings
