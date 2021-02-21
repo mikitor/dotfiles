@@ -55,6 +55,7 @@ cask "pdf-expert"
 cask "postman"
 cask "protonvpn"
 cask "qbittorrent"
+cask "rectangle"
 cask "spotify"
 cask "the-unarchiver"
 cask "time-out"
@@ -64,7 +65,6 @@ cask "vlc"
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "Keynote", id: 409183694
-mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Parcel", id: 639968404
